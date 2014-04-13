@@ -1,0 +1,56 @@
+//*Icons used for the buttons*//
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-72q514');
+	src:url('fonts/icomoon.eot?#iefix-72q514') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-72q514') format('woff'),
+		url('fonts/icomoon.ttf?-72q514') format('truetype'),
+		url('fonts/icomoon.svg?-72q514#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-screen:before {
+	content: "\e601";
+}
+.icon-laptop:before {
+	content: "\e602";
+}
+.icon-mobile:before {
+	content: "\e603";
+}
+.icon-tablet:before {
+	content: "\e605";
+}
+//*gCode CSS*//
+.gContainter {
+	width: 158px;
+	right: 3px;
+	top: 4px;
+	position: relative;
+	float: right;
+	font-size: 6px;
+}
+.gMobile {
+	left: 25%
+}
+.gTablet {
+	left: 50%;
+}
+.gDesktop {
+	left: 75%;
+}
